@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21161" started-at="2017-01-29T15:00:16Z" finished-at="2017-01-29T15:00:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21161" started-at="2017-01-29T15:00:16Z" finished-at="2017-01-29T15:00:37Z">
+      <class name="testCases.NewTestTestNG">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="beforeSuite" is-config="true" duration-ms="316" started-at="2017-01-29T20:30:15Z" finished-at="2017-01-29T20:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="browserSetup" is-config="true" duration-ms="3924" started-at="2017-01-29T20:30:16Z" finished-at="2017-01-29T20:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="beforeMethod" is-config="true" duration-ms="16302" started-at="2017-01-29T20:30:20Z" finished-at="2017-01-29T20:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testReport()[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="testReport" duration-ms="177" started-at="2017-01-29T20:30:36Z" finished-at="2017-01-29T20:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReport -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-01-29T20:30:36Z" finished-at="2017-01-29T20:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="afterMethod" is-config="true" duration-ms="518" started-at="2017-01-29T20:30:36Z" finished-at="2017-01-29T20:30:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testReport status=SUCCESS method=NewTestTestNG.testReport()[pri:0, instance:testCases.NewTestTestNG@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="browserTeardown()[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="browserTeardown" is-config="true" duration-ms="211" started-at="2017-01-29T20:30:37Z" finished-at="2017-01-29T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTeardown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.NewTestTestNG@42d80b78]" name="afterSuite" is-config="true" duration-ms="270" started-at="2017-01-29T20:30:37Z" finished-at="2017-01-29T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.NewTestTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
